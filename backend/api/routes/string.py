@@ -56,7 +56,5 @@ async def check_string(
         }
     """
     logger.info("Received request to check string")
-    logger.info(f"Chegou na rota de verificação {input_data.text}")
-    logger.info(f"Chegou na rota de verificação {input_data}")
     result = challenge.execute(input_data)
     return result
